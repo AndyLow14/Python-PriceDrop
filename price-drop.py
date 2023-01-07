@@ -8,12 +8,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
 # Chemist warehouse
-INC_CHOC_URL = "https://www.chemistwarehouse.com.au/buy/74342/inc-hardgainer-mass-chocolate-flavour-2kg"
+INC_CHOC = "https://www.chemistwarehouse.com.au/buy/74342/inc-hardgainer-mass-chocolate-flavour-2kg"
+CW_LINKS = [INC_CHOC]
 
 # Woolies
-LINK = "https://www.woolworths.com.au/shop/productdetails/159019/airborne-manuka-honey-upside-down"
-LINK2 = "https://www.woolworths.com.au/shop/productdetails/717255/sanitarium-up-go-liquid-breakfast-choc-ice"
-LINKS = [LINK, LINK2]
+HONEY = "https://www.woolworths.com.au/shop/productdetails/159019/airborne-manuka-honey-upside-down"
+UP_AND_GO = "https://www.woolworths.com.au/shop/productdetails/717255/sanitarium-up-go-liquid-breakfast-choc-ice"
+WOOLIES_LINKS = [HONEY, UP_AND_GO]
 
 
 def main():
@@ -26,7 +27,8 @@ def main():
     driver = webdriver.Firefox(options=options)
    
     print_date()
-    #cw_scraper(driver)
+    cw_scraper(driver)
+    print_divider()
     woolies_scraper(driver)
 
     driver.close()
@@ -35,26 +37,29 @@ def main():
 
 def print_date():
     date_scanned = datetime.now().strftime("%d %b | %I:%M %p")
-    print(f"Date: {date_scanned}")
+    print(f"Date scanned: {date_scanned}")
+    print_divider()
 
 
 # Finds the elements of interest in the html page (chemist_warehouse)
 def cw_scraper(driver):
-    driver.get(INC_CHOC_URL)
-    page_source = driver.page_source
-    soup = BeautifulSoup(page_source, "html.parser")
+    print("CHEMIST WAREHOUSE ITEMS\n-----------------------")
+    for x in CW_LINKS:
+        driver.get(x)
+        page_source = driver.page_source
+        soup = BeautifulSoup(page_source, "html.parser")
 
-    product_name = soup.find("div", {"itemprop": "name"}).text.strip()
-    current_price = soup.find("span", {"class": "product__price"}).text
-    price_off = soup.find("div", {"class": "Savings"}).text.strip()
+        product_name = soup.find("div", {"itemprop": "name"}).text.strip()
+        current_price = soup.find("span", {"class": "product__price"}).text
+        price_off = soup.find("div", {"class": "Savings"}).text.strip()
 
-    print(product_name)
-    print(f"Price: {current_price}")
-    print(f"Savings: {price_off}")
+        print(product_name)
+        print(f"Price: {current_price}")
+        print(f"Savings: {price_off}")
 
 def woolies_scraper(driver):
-
-    for x in LINKS:
+    print("WOOLIES ITEMS\n-------------")
+    for x in WOOLIES_LINKS:
         driver.get(x)
         page_source = driver.page_source
         soup = BeautifulSoup(page_source, "html.parser")
@@ -76,14 +81,13 @@ def woolies_scraper(driver):
             was_price_f = float(re.findall(r'\d+\.\d+', price_was)[0])
             percentage_drop = round((1-(curr_price_f/was_price_f))*100)
             print(price_was)
-            print(f"Price drop: -{percentage_drop}%")
+            print(f"Price drop: -{percentage_drop}%\n")
         except:
             # Price was element is not found, no drop in price!!
-            print("Price unchanged")
-        
+            print("Price unchanged\n")
         
 def print_divider():
-    print("---------------------------------------------------------------------------------")   
+    print("-----------------------------------------------------")   
     
 if __name__ == "__main__":
     main()
