@@ -7,14 +7,24 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
+# Delay to allow website to load
+WAIT_DELAY = 2
+
 # Chemist warehouse
 INC_CHOC = "https://www.chemistwarehouse.com.au/buy/74342/inc-hardgainer-mass-chocolate-flavour-2kg"
-CW_LINKS = [INC_CHOC]
+CENOVIS_B_COMPLEX = "https://www.chemistwarehouse.com.au/buy/78520/cenovis-b-complex---vitamin-b---150-tablets"
+TEST = "https://www.chemistwarehouse.com.au/buy/75858/healthy-care-sugar-balance-plus-90-tablets"
+
+CW_LINKS = [INC_CHOC, CENOVIS_B_COMPLEX, TEST]
 
 # Woolies
-HONEY = "https://www.woolworths.com.au/shop/productdetails/159019/airborne-manuka-honey-upside-down"
-UP_AND_GO = "https://www.woolworths.com.au/shop/productdetails/717255/sanitarium-up-go-liquid-breakfast-choc-ice"
-WOOLIES_LINKS = [HONEY, UP_AND_GO]
+MILO = "https://www.woolworths.com.au/shop/productdetails/192985/nestle-milo-choc-malt"
+CHOC_UP_AND_GO_PROTEIN = "https://www.woolworths.com.au/shop/productdetails/768911/sanitarium-up-go-protein-energize-choc"
+MAMEE_CURRY_LAKSA = "https://www.woolworths.com.au/shop/productdetails/841673/mamee-chef-curry-laksa-cup"
+COLGATE_360_TOOTHBRUSH = "https://www.woolworths.com.au/shop/productdetails/200710/colgate-360-optic-white-toothbrush-medium"
+CARMANS_PROTEIN_BAR = "https://www.woolworths.com.au/shop/productdetails/175651/carman-s-double-dark-choc-protein-bar"
+
+WOOLIES_LINKS = [MILO, CHOC_UP_AND_GO_PROTEIN, MAMEE_CURRY_LAKSA, COLGATE_360_TOOTHBRUSH, CARMANS_PROTEIN_BAR]
 
 
 def main():
@@ -51,11 +61,17 @@ def cw_scraper(driver):
 
         product_name = soup.find("div", {"itemprop": "name"}).text.strip()
         current_price = soup.find("span", {"class": "product__price"}).text
-        price_off = soup.find("div", {"class": "Savings"}).text.strip()
 
         print(product_name)
         print(f"Price: {current_price}")
-        print(f"Savings: {price_off}")
+
+        try:
+            price_off = soup.find("div", {"class": "Savings"}).text.strip()
+            print(f"Savings: {price_off}\n")
+        except:
+            print("No price drop")
+            pass
+
 
 def woolies_scraper(driver):
     print("WOOLIES ITEMS\n-------------")
@@ -66,8 +82,8 @@ def woolies_scraper(driver):
 
         # print(soup.text)
         product_name = soup.find("h1", {"class": "shelfProductTile-title heading3"}).text
-        current_price_dollars = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CLASS_NAME, "price-dollars"))).text
-        current_price_cents = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CLASS_NAME, "price-cents"))).text
+        current_price_dollars = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-dollars"))).text
+        current_price_cents = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-cents"))).text
         curr_price = f"{current_price_dollars}.{current_price_cents}"
         curr_price_f = float(curr_price)
         
@@ -75,7 +91,7 @@ def woolies_scraper(driver):
         print(f"Price: ${curr_price}")
 
         try:
-            price_was = WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CLASS_NAME, "price-was")))
+            price_was = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-was")))
             price_was = price_was.text
             # Slice the string to remove the "was and $ sign"
             was_price_f = float(re.findall(r'\d+\.\d+', price_was)[0])
@@ -84,7 +100,7 @@ def woolies_scraper(driver):
             print(f"Price drop: -{percentage_drop}%\n")
         except:
             # Price was element is not found, no drop in price!!
-            print("Price unchanged\n")
+            print("No price drop\n")
         
 def print_divider():
     print("-----------------------------------------------------")   

@@ -2065,3 +2065,354 @@ JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1k
 JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1673091548984	Marionette	INFO	Stopped listening on port 50441
+1673092032907	geckodriver	INFO	Listening on 127.0.0.1:62984
+1673092035981	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofileJ8nJTl"
+*** You are running in headless mode.
+1673092036315	Marionette	INFO	Marionette enabled
+1673092036319	Marionette	INFO	Listening on port 62994
+WebDriver BiDi listening on ws://127.0.0.1:62985
+Read port: 62994
+1673092036534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofileJ8nJTl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62985/devtools/browser/8c67d6d6-0e05-48a1-abfd-a554a7d4026c
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673092044964	Marionette	INFO	Stopped listening on port 62994
+1673092797325	geckodriver	INFO	Listening on 127.0.0.1:62970
+1673092800394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62971" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofilex6bB6q"
+*** You are running in headless mode.
+1673092800723	Marionette	INFO	Marionette enabled
+1673092800727	Marionette	INFO	Listening on port 62981
+Read port: 62981
+WebDriver BiDi listening on ws://127.0.0.1:62971
+1673092800811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofilex6bB6q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62971/devtools/browser/6e34c9cc-9873-47e3-a23e-a8ccc513cace
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 183: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673092820371	Marionette	INFO	Stopped listening on port 62981
+1673093157545	geckodriver	INFO	Listening on 127.0.0.1:50458
+1673093160614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "50459" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofilePq6948"
+*** You are running in headless mode.
+1673093160948	Marionette	INFO	Marionette enabled
+1673093160952	Marionette	INFO	Listening on port 50470
+WebDriver BiDi listening on ws://127.0.0.1:50459
+Read port: 50470
+1673093161172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofilePq6948\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50459/devtools/browser/8574e134-8e20-40bb-bdcd-974d12a2d7b5
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript error: https://www.chemistwarehouse.com.au/buy/78520/cenovis-b-complex---vitamin-b---150-tablets line 578 > injectedScript, line 2: TypeError: dataLayer[index].ecommercega4 is undefined
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Shutting down due to socket process crash.
+1673093237334	geckodriver	INFO	Listening on 127.0.0.1:50891
+1673093240395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "50892" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofilelo6ybf"
+*** You are running in headless mode.
+1673093240735	Marionette	INFO	Marionette enabled
+1673093240739	Marionette	INFO	Listening on port 50902
+WebDriver BiDi listening on ws://127.0.0.1:50892
+Read port: 50902
+1673093240954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofilelo6ybf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50892/devtools/browser/81276a55-decf-44a6-a087-c55b87ec35ac
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript error: https://www.chemistwarehouse.com.au/buy/78520/cenovis-b-complex---vitamin-b---150-tablets line 578 > injectedScript, line 2: TypeError: dataLayer[index].ecommercega4 is undefined
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673093271854	Marionette	INFO	Stopped listening on port 50902
+1673093321570	geckodriver	INFO	Listening on 127.0.0.1:51308
+1673093324640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51309" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofile6ErUSM"
+*** You are running in headless mode.
+1673093324972	Marionette	INFO	Marionette enabled
+1673093324976	Marionette	INFO	Listening on port 51321
+WebDriver BiDi listening on ws://127.0.0.1:51309
+Read port: 51321
+1673093325254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofile6ErUSM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51309/devtools/browser/68483663-5b88-455b-a2c1-c003bc3ca92e
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript error: https://www.chemistwarehouse.com.au/buy/78520/cenovis-b-complex---vitamin-b---150-tablets line 579 > injectedScript, line 2: TypeError: dataLayer[index].ecommercega4 is undefined
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript error: https://www.chemistwarehouse.com.au/buy/75858/healthy-care-sugar-balance-plus-90-tablets line 579 > injectedScript, line 2: TypeError: dataLayer[index].ecommercega4 is undefined
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 2958 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673093378978	geckodriver	INFO	Listening on 127.0.0.1:51613
+1673093382041	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51614" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofilemTsXHl"
+*** You are running in headless mode.
+1673093382368	Marionette	INFO	Marionette enabled
+1673093382372	Marionette	INFO	Listening on port 51624
+WebDriver BiDi listening on ws://127.0.0.1:51614
+Read port: 51624
+1673093382587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofilemTsXHl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51614/devtools/browser/21faa14e-7c35-4ff0-a934-3311fc519601
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673093409671	Marionette	INFO	Stopped listening on port 51624
+1673093473943	geckodriver	INFO	Listening on 127.0.0.1:51832
+1673093476994	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51833" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofilewY11KP"
+*** You are running in headless mode.
+1673093477330	Marionette	INFO	Marionette enabled
+1673093477335	Marionette	INFO	Listening on port 51842
+WebDriver BiDi listening on ws://127.0.0.1:51833
+Read port: 51842
+1673093477546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofilewY11KP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51833/devtools/browser/8b975da3-dc1d-4d17-9d57-7bc0c6a98aa5
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript error: https://www.chemistwarehouse.com.au/buy/78520/cenovis-b-complex---vitamin-b---150-tablets line 578 > injectedScript, line 2: TypeError: dataLayer[index].ecommercega4 is undefined
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673093499776	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tags.tiqcdn.com/utag/woolworths/supermarkets/prod/utag.js, line 406: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cheqzone.com/clicktrue_invocation.js?id=6591, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673093508806	Marionette	INFO	Stopped listening on port 51842
+1673093592384	geckodriver	INFO	Listening on 127.0.0.1:61054
+1673093595442	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61055" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofile1wJioy"
+*** You are running in headless mode.
+1673093595777	Marionette	INFO	Marionette enabled
+1673093595781	Marionette	INFO	Listening on port 61064
+WebDriver BiDi listening on ws://127.0.0.1:61055
+Read port: 61064
+1673093596006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofile1wJioy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61055/devtools/browser/9a122766-3536-4933-9dda-ce5db4393a15
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript error: https://www.chemistwarehouse.com.au/buy/78520/cenovis-b-complex---vitamin-b---150-tablets line 578 > injectedScript, line 2: TypeError: dataLayer[index].ecommercega4 is undefined
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673093621250	Marionette	INFO	Stopped listening on port 61064
+1673093655221	geckodriver	INFO	Listening on 127.0.0.1:61338
+1673093658297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61339" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofileE82wqT"
+*** You are running in headless mode.
+1673093658616	Marionette	INFO	Marionette enabled
+1673093658622	Marionette	INFO	Listening on port 61348
+WebDriver BiDi listening on ws://127.0.0.1:61339
+Read port: 61348
+1673093658835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofileE82wqT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61339/devtools/browser/4c260ad9-3909-4198-84ab-34695118b4c7
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript error: https://www.chemistwarehouse.com.au/buy/78520/cenovis-b-complex---vitamin-b---150-tablets line 578 > injectedScript, line 2: TypeError: dataLayer[index].ecommercega4 is undefined
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673093698100	geckodriver	INFO	Listening on 127.0.0.1:61599
+1673093701181	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61600" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofiley2JSwu"
+*** You are running in headless mode.
+1673093701498	Marionette	INFO	Marionette enabled
+1673093701502	Marionette	INFO	Listening on port 61609
+Read port: 61609
+WebDriver BiDi listening on ws://127.0.0.1:61600
+1673093701583	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ANDYLO~1\\AppData\\Local\\Temp\\rust_mozprofiley2JSwu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61600/devtools/browser/dceb45dd-3aaa-40ca-a71e-361696b33d50
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript error: https://www.chemistwarehouse.com.au/buy/78520/cenovis-b-complex---vitamin-b---150-tablets line 578 > injectedScript, line 2: TypeError: dataLayer[index].ecommercega4 is undefined
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn.gbqofs.com/chemist-wh/p/detector-dom.min.js, line 86: asm.js type error: cannot create array view without an asm.js heap parameter
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn0.woolworths.media/wowssr/syd1/a10/browser/assets/adobe/adobe-hp.min.js?hash=0.0, line 17: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: unreachable code after return statement
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.woolworths.com.au/pvVEB/4RoH/CtLW/DJ4QVv/Q/a5Y1kJS8/ejRAYyE8BQU/c09J/cU5eXyc, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673093729688	Marionette	INFO	Stopped listening on port 61609
