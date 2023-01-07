@@ -4,6 +4,10 @@ Add a list of item links and the script will automatically scrape the website by
 The script currently supports items from chemistwarehouse.com.au and woolworths.com.au 
 
 ### Dependencies
-```pip install bs4```
-```pip install selenium```
-* requires Firefox browser to work
+```
+pip install bs4
+```
+```
+pip install selenium
+```
+**Requires Firefox browser to work**
