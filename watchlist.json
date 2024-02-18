@@ -1,11 +1,14 @@
 {
   "Chemist_Warehouse": {
     "INC_CHOC": "74342",
-    "CENOVIS_B_COMPLEX": "78520"
+    "CENOVIS_B_COMPLEX": "78520",
+    "CLOUD": "89384",
+    "SMOULDERING_RED": "107663"
   },
   "Woolworths": {
     "MILO": "192985",
     "CHOC_UP_AND_GO_PROTEIN": "768911",
+    "CHOC_UP_AND_GO": "167863",
     "MAMEE_CURRY_LAKSA": "841673",
     "COLGATE_360_TOOTHBRUSH": "200710",
     "CARMANS_PROTEIN_BAR": "175651"

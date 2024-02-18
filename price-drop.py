@@ -59,9 +59,13 @@ def cw_scraper(driver):
 
         try:
             price_off = soup.find("div", {"class": "Savings"}).text.strip()
-            print(f"Savings: {price_off}\n")
+            curr_price_f = float(current_price.replace("$", ""))
+            price_off_f = float(re.findall(r'\$([\d.]+)', price_off)[0])
+
+            percentage_drop = round((1 - (curr_price_f / (price_off_f + curr_price_f))) * 100)
+            print(f"Savings: {price_off} (-{percentage_drop}%)\n")
         except:
-            print("No price drop")
+            print("No price drop \n")
             pass
 
 
