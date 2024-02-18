@@ -1,4 +1,5 @@
 import re
+import json
 from datetime import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -7,25 +8,15 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
+f = open("watchlist.json", "r")
+watchlist = json.load(f)
+f.close()
+
 # Delay to allow website to load
 WAIT_DELAY = 2
 
-# Chemist warehouse
-INC_CHOC = "https://www.chemistwarehouse.com.au/buy/74342/inc-hardgainer-mass-chocolate-flavour-2kg"
-CENOVIS_B_COMPLEX = "https://www.chemistwarehouse.com.au/buy/78520/cenovis-b-complex---vitamin-b---150-tablets"
-TEST = "https://www.chemistwarehouse.com.au/buy/75858/healthy-care-sugar-balance-plus-90-tablets"
-
-CW_LINKS = [INC_CHOC, CENOVIS_B_COMPLEX, TEST]
-
-# Woolies
-MILO = "https://www.woolworths.com.au/shop/productdetails/192985/nestle-milo-choc-malt"
-CHOC_UP_AND_GO_PROTEIN = "https://www.woolworths.com.au/shop/productdetails/768911/sanitarium-up-go-protein-energize-choc"
-MAMEE_CURRY_LAKSA = "https://www.woolworths.com.au/shop/productdetails/841673/mamee-chef-curry-laksa-cup"
-COLGATE_360_TOOTHBRUSH = "https://www.woolworths.com.au/shop/productdetails/200710/colgate-360-optic-white-toothbrush-medium"
-CARMANS_PROTEIN_BAR = "https://www.woolworths.com.au/shop/productdetails/175651/carman-s-double-dark-choc-protein-bar"
-
-WOOLIES_LINKS = [MILO, CHOC_UP_AND_GO_PROTEIN, MAMEE_CURRY_LAKSA, COLGATE_360_TOOTHBRUSH, CARMANS_PROTEIN_BAR]
-
+CW_BASE = "https://www.chemistwarehouse.com.au/buy/"
+WOOLIES_BASE = "https://www.woolworths.com.au/shop/productdetails/"
 
 def main():
     print("Fetching prices...")
@@ -54,8 +45,9 @@ def print_date():
 # Finds the elements of interest in the html page (chemist_warehouse)
 def cw_scraper(driver):
     print("CHEMIST WAREHOUSE ITEMS\n-----------------------")
-    for x in CW_LINKS:
-        driver.get(x)
+    for cwid in watchlist["Chemist_Warehouse"].values():
+        full_link = CW_BASE + cwid
+        driver.get(full_link)
         page_source = driver.page_source
         soup = BeautifulSoup(page_source, "html.parser")
 
@@ -75,13 +67,14 @@ def cw_scraper(driver):
 
 def woolies_scraper(driver):
     print("WOOLIES ITEMS\n-------------")
-    for x in WOOLIES_LINKS:
-        driver.get(x)
+    for wlid in watchlist["Woolworths"].values():
+        full_link = WOOLIES_BASE + wlid
+        driver.get(full_link)
         page_source = driver.page_source
         soup = BeautifulSoup(page_source, "html.parser")
 
         # print(soup.text)
-        product_name = soup.find("h1", {"class": "shelfProductTile-title heading3"}).text
+        product_name = soup.find("h1", {"class": "shelfProductTile-title"}).text
         current_price_dollars = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-dollars"))).text
         current_price_cents = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-cents"))).text
         curr_price = f"{current_price_dollars}.{current_price_cents}"
