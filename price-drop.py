@@ -7,6 +7,8 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
+from win11toast import toast
+from typing import Dict
 
 f = open("watchlist.json", "r")
 watchlist = json.load(f)
@@ -17,6 +19,8 @@ WAIT_DELAY = 2
 
 CW_BASE = "https://www.chemistwarehouse.com.au/buy/"
 WOOLIES_BASE = "https://www.woolworths.com.au/shop/productdetails/"
+
+toast_dict: Dict[str, str] = {}
 
 def main():
     print("Fetching prices...")
@@ -32,9 +36,19 @@ def main():
     print_divider()
     woolies_scraper(driver)
 
+    if toast_dict:
+        notify() 
+
     driver.close()
     input("Press enter to close...")
 
+
+def notify():
+    notification = ""
+    for product, price in toast_dict.items(): 
+        notification += f"{product} {price}, "
+
+    toast("Price Drop > 20%", notification.rstrip(", "), scenario='incomingCall')
 
 def print_date():
     date_scanned = datetime.now().strftime("%d %b | %I:%M %p")
@@ -45,7 +59,8 @@ def print_date():
 # Finds the elements of interest in the html page (chemist_warehouse)
 def cw_scraper(driver):
     print("CHEMIST WAREHOUSE ITEMS\n-----------------------")
-    for cwid in watchlist["Chemist_Warehouse"].values():
+    
+    for cwref, cwid in watchlist["Chemist_Warehouse"].items():
         full_link = CW_BASE + cwid
         driver.get(full_link)
         page_source = driver.page_source
@@ -64,6 +79,10 @@ def cw_scraper(driver):
 
             percentage_drop = round((1 - (curr_price_f / (price_off_f + curr_price_f))) * 100)
             print(f"Savings: {price_off} (-{percentage_drop}%)\n")
+
+            if percentage_drop >= 20:
+                toast_dict[cwref] = f"(-{percentage_drop}%)"
+        
         except:
             print("No price drop \n")
             pass
@@ -71,7 +90,7 @@ def cw_scraper(driver):
 
 def woolies_scraper(driver):
     print("WOOLIES ITEMS\n-------------")
-    for wlid in watchlist["Woolworths"].values():
+    for wlref, wlid in watchlist["Woolworths"].items():
         full_link = WOOLIES_BASE + wlid
         driver.get(full_link)
         page_source = driver.page_source
@@ -95,6 +114,10 @@ def woolies_scraper(driver):
             percentage_drop = round((1-(curr_price_f/was_price_f))*100)
             print(price_was)
             print(f"Price drop: -{percentage_drop}%\n")
+
+            if percentage_drop >= 20:
+                toast_dict[wlref] = f"(-{percentage_drop}%)"
+
         except:
             # Price was element is not found, no drop in price!!
             print("No price drop\n")

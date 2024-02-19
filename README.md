@@ -39,4 +39,8 @@ pip install bs4
 pip install selenium
 ```
 
+```
+pip install win11toast
+```
+
 **Requires Firefox browser to work**
