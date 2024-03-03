@@ -10,9 +10,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from win11toast import toast
 from typing import Dict
 
-f = open("watchlist.json", "r")
-watchlist = json.load(f)
-f.close()
+watchlist_f = open("watchlist.json", "r")
+watchlist = json.load(watchlist_f)
+watchlist_f.close()
+
+log_f = open("log.txt", "w")
 
 # Delay to allow website to load
 WAIT_DELAY = 2
@@ -40,8 +42,8 @@ def main():
         notify() 
 
     driver.close()
+    log_f.close()
     input("Press enter to close...")
-
 
 def notify():
     notification = ""
@@ -53,24 +55,35 @@ def notify():
 def print_date():
     date_scanned = datetime.now().strftime("%d %b | %I:%M %p")
     print(f"Date scanned: {date_scanned}")
+    log_f.write(f"Date scanned: {date_scanned}\n")
     print_divider()
 
+def print_w_log(text):
+    print(text)
+    log_f.write(text + "\n")
 
 # Finds the elements of interest in the html page (chemist_warehouse)
 def cw_scraper(driver):
-    print("CHEMIST WAREHOUSE ITEMS\n-----------------------")
+    print_w_log("CHEMIST WAREHOUSE ITEMS\n-----------------------")
     
     for cwref, cwid in watchlist["Chemist_Warehouse"].items():
         full_link = CW_BASE + cwid
         driver.get(full_link)
-        page_source = driver.page_source
-        soup = BeautifulSoup(page_source, "html.parser")
 
-        product_name = soup.find("div", {"itemprop": "name"}).text.strip()
-        current_price = soup.find("span", {"class": "product__price"}).text
+        try:
+            page_source = driver.page_source
+            soup = BeautifulSoup(page_source, "html.parser")
 
-        print(product_name)
-        print(f"Price: {current_price}")
+            product_name = soup.find("div", {"itemprop": "name"}).text.strip()
+            current_price = soup.find("span", {"class": "product__price"}).text
+
+            print_w_log(product_name)
+
+            price = f"Price: {current_price}"
+            print_w_log(price)
+
+        except Exception as e:
+            print_w_log(f"Network Error: {e}")
 
         try:
             price_off = soup.find("div", {"class": "Savings"}).text.strip()
@@ -78,30 +91,35 @@ def cw_scraper(driver):
             price_off_f = float(re.findall(r'\$([\d.]+)', price_off)[0])
 
             percentage_drop = round((1 - (curr_price_f / (price_off_f + curr_price_f))) * 100)
-            print(f"Savings: {price_off} (-{percentage_drop}%)\n")
+
+            savings = f"Savings: {price_off} (-{percentage_drop}%)\n"
+            print_w_log(savings)
 
             if percentage_drop >= 20:
                 toast_dict[cwref] = f"(-{percentage_drop}%)"
         
         except:
-            print("No price drop \n")
-            pass
+            print_w_log("No price drop \n")
 
 
 def woolies_scraper(driver):
-    print("WOOLIES ITEMS\n-------------")
+    print_w_log("WOOLIES ITEMS\n-------------")
     for wlref, wlid in watchlist["Woolworths"].items():
         full_link = WOOLIES_BASE + wlid
         driver.get(full_link)
 
-        product_name = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "shelfProductTile-title"))).text
-        current_price_dollars = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-dollars"))).text
-        current_price_cents = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-cents"))).text
-        curr_price = f"{current_price_dollars}.{current_price_cents}"
-        curr_price_f = float(curr_price)
-        
-        print(product_name)
-        print(f"Price: ${curr_price}")
+        try:
+            product_name = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "shelfProductTile-title"))).text
+            current_price_dollars = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-dollars"))).text
+            current_price_cents = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-cents"))).text
+            curr_price = f"{current_price_dollars}.{current_price_cents}"
+            curr_price_f = float(curr_price)
+
+            print_w_log(product_name)
+            print_w_log(f"Price: ${curr_price}")
+
+        except Exception as e:
+            print_w_log(f"Network Error: {e}")
 
         try:
             price_was = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-was")))
@@ -109,18 +127,18 @@ def woolies_scraper(driver):
             # Slice the string to remove the "was and $ sign"
             was_price_f = float(re.findall(r'\d+\.\d+', price_was)[0])
             percentage_drop = round((1-(curr_price_f/was_price_f))*100)
-            print(price_was)
-            print(f"Price drop: -{percentage_drop}%\n")
+            print_w_log(price_was)
+            print_w_log(f"Price drop: -{percentage_drop}%\n")
 
             if percentage_drop >= 20:
                 toast_dict[wlref] = f"(-{percentage_drop}%)"
 
         except:
-            # Price was element is not found, no drop in price!!
-            print("No price drop\n")
+            print_w_log("No price drop\n")
         
 def print_divider():
-    print("-----------------------------------------------------")   
+    print("-----------------------------------------------------")
+    log_f.write("-----------------------------------------------------\n")   
     
 if __name__ == "__main__":
     main()
