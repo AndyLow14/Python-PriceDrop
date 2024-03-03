@@ -93,11 +93,8 @@ def woolies_scraper(driver):
     for wlref, wlid in watchlist["Woolworths"].items():
         full_link = WOOLIES_BASE + wlid
         driver.get(full_link)
-        page_source = driver.page_source
-        soup = BeautifulSoup(page_source, "html.parser")
 
-        # print(soup.text)
-        product_name = soup.find("h1", {"class": "shelfProductTile-title"}).text
+        product_name = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "shelfProductTile-title"))).text
         current_price_dollars = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-dollars"))).text
         current_price_cents = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-cents"))).text
         curr_price = f"{current_price_dollars}.{current_price_cents}"
