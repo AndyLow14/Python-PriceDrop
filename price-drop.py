@@ -106,13 +106,19 @@ def woolies_scraper(driver):
     print_w_log("WOOLIES ITEMS\n-------------")
     for wlref, wlid in watchlist["Woolworths"].items():
         full_link = WOOLIES_BASE + wlid
-        driver.get(full_link)
 
         try:
-            product_name = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "shelfProductTile-title"))).text
-            current_price_dollars = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-dollars"))).text
-            current_price_cents = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-cents"))).text
-            curr_price = f"{current_price_dollars}.{current_price_cents}"
+            retries = 0
+            while retries < 5:
+                driver.get(full_link)
+                product_name = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "shelfProductTile-title"))).text
+                current_price_dollars = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-dollars"))).text
+                current_price_cents = WebDriverWait(driver, WAIT_DELAY).until(EC.presence_of_element_located((By.CLASS_NAME, "price-cents"))).text
+                if product_name and current_price_dollars and current_price_cents:
+                    break
+                retries += 1
+            
+            curr_price = f"{current_price_dollars or '0'}.{current_price_cents or '00'}"
             curr_price_f = float(curr_price)
 
             print_w_log(product_name)
